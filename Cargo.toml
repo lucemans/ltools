@@ -1,6 +1,6 @@
 [package]
 name = "ltools"
-version = "0.1.0"
+version = "0.0.2"
 edition = "2021"
 
 
@@ -12,3 +12,4 @@ path = "src/main.rs"
 
 [dependencies]
 colored = "1.6"
+structopt = "0.3.23"

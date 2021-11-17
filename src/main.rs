@@ -1,3 +1,5 @@
+// THIS PACKAGE IS WORK IN PROGRESS, PLEASE DO NOT DELETE FROM AUR
+
 fn main() {
     let args = std::env::args();
     let len = args.len();

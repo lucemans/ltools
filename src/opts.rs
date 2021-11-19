@@ -5,8 +5,12 @@ use structopt::StructOpt;
 pub enum Opts {
     /// Lists all directories in da thing
     Dev {
-        /// Text to print
-        #[structopt(short, long)]
-        command: Option<String>
+        /// Directory to search for projects in
+        #[structopt(short = "d", long = "directory")]
+        dir: Option<String>,
+
+        // Show hidden files
+        #[structopt(short = "a", long = "all")]
+        all: bool
     },
 }
